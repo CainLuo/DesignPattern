@@ -1,0 +1,555 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A41AFEF31D45E3BD00CB5503 /* Customer.m in Sources */ = {isa = PBXBuildFile; fileRef = A41AFEF21D45E3BD00CB5503 /* Customer.m */; };
+		A42FDE1B1D45A243008E97C1 /* AudiManufacturer.m in Sources */ = {isa = PBXBuildFile; fileRef = A42FDE1A1D45A243008E97C1 /* AudiManufacturer.m */; };
+		A4F9C4691D4372F400A24933 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A4F9C4681D4372F400A24933 /* main.m */; };
+		A4F9C46C1D4372F400A24933 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A4F9C46B1D4372F400A24933 /* AppDelegate.m */; };
+		A4F9C46F1D4372F400A24933 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4F9C46E1D4372F400A24933 /* ViewController.m */; };
+		A4F9C4721D4372F400A24933 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4F9C4701D4372F400A24933 /* Main.storyboard */; };
+		A4F9C4741D4372F400A24933 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4F9C4731D4372F400A24933 /* Assets.xcassets */; };
+		A4F9C4771D4372F400A24933 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4F9C4751D4372F400A24933 /* LaunchScreen.storyboard */; };
+		A4F9C4821D4372F400A24933 /* ProxyPatternTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A4F9C4811D4372F400A24933 /* ProxyPatternTests.m */; };
+		A4F9C48D1D4372F400A24933 /* ProxyPatternUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A4F9C48C1D4372F400A24933 /* ProxyPatternUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A4F9C47E1D4372F400A24933 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A4F9C45C1D4372F400A24933 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A4F9C4631D4372F400A24933;
+			remoteInfo = ProxyPattern;
+		};
+		A4F9C4891D4372F400A24933 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A4F9C45C1D4372F400A24933 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A4F9C4631D4372F400A24933;
+			remoteInfo = ProxyPattern;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A41AFEEC1D45DF8B00CB5503 /* AudiCustomerProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudiCustomerProtocol.h; sourceTree = "<group>"; };
+		A41AFEF11D45E3BD00CB5503 /* Customer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Customer.h; sourceTree = "<group>"; };
+		A41AFEF21D45E3BD00CB5503 /* Customer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Customer.m; sourceTree = "<group>"; };
+		A42FDE191D45A243008E97C1 /* AudiManufacturer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudiManufacturer.h; sourceTree = "<group>"; };
+		A42FDE1A1D45A243008E97C1 /* AudiManufacturer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudiManufacturer.m; sourceTree = "<group>"; };
+		A4F9C4641D4372F400A24933 /* ProxyPattern.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProxyPattern.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4F9C4681D4372F400A24933 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A4F9C46A1D4372F400A24933 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A4F9C46B1D4372F400A24933 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A4F9C46D1D4372F400A24933 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A4F9C46E1D4372F400A24933 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A4F9C4711D4372F400A24933 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A4F9C4731D4372F400A24933 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A4F9C4761D4372F400A24933 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A4F9C4781D4372F400A24933 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4F9C47D1D4372F400A24933 /* ProxyPatternTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProxyPatternTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4F9C4811D4372F400A24933 /* ProxyPatternTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProxyPatternTests.m; sourceTree = "<group>"; };
+		A4F9C4831D4372F400A24933 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4F9C4881D4372F400A24933 /* ProxyPatternUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProxyPatternUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4F9C48C1D4372F400A24933 /* ProxyPatternUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProxyPatternUITests.m; sourceTree = "<group>"; };
+		A4F9C48E1D4372F400A24933 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A4F9C4611D4372F400A24933 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4F9C47A1D4372F400A24933 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4F9C4851D4372F400A24933 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A41AFEF01D45E3BD00CB5503 /* Customer */ = {
+			isa = PBXGroup;
+			children = (
+				A41AFEF11D45E3BD00CB5503 /* Customer.h */,
+				A41AFEF21D45E3BD00CB5503 /* Customer.m */,
+			);
+			path = Customer;
+			sourceTree = "<group>";
+		};
+		A42FDE181D45A13E008E97C1 /* Audi */ = {
+			isa = PBXGroup;
+			children = (
+				A42FDE191D45A243008E97C1 /* AudiManufacturer.h */,
+				A42FDE1A1D45A243008E97C1 /* AudiManufacturer.m */,
+				A41AFEEC1D45DF8B00CB5503 /* AudiCustomerProtocol.h */,
+			);
+			path = Audi;
+			sourceTree = "<group>";
+		};
+		A4F9C45B1D4372F400A24933 = {
+			isa = PBXGroup;
+			children = (
+				A4F9C4661D4372F400A24933 /* ProxyPattern */,
+				A4F9C4801D4372F400A24933 /* ProxyPatternTests */,
+				A4F9C48B1D4372F400A24933 /* ProxyPatternUITests */,
+				A4F9C4651D4372F400A24933 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A4F9C4651D4372F400A24933 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A4F9C4641D4372F400A24933 /* ProxyPattern.app */,
+				A4F9C47D1D4372F400A24933 /* ProxyPatternTests.xctest */,
+				A4F9C4881D4372F400A24933 /* ProxyPatternUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A4F9C4661D4372F400A24933 /* ProxyPattern */ = {
+			isa = PBXGroup;
+			children = (
+				A41AFEF01D45E3BD00CB5503 /* Customer */,
+				A42FDE181D45A13E008E97C1 /* Audi */,
+				A4F9C46A1D4372F400A24933 /* AppDelegate.h */,
+				A4F9C46B1D4372F400A24933 /* AppDelegate.m */,
+				A4F9C46D1D4372F400A24933 /* ViewController.h */,
+				A4F9C46E1D4372F400A24933 /* ViewController.m */,
+				A4F9C4701D4372F400A24933 /* Main.storyboard */,
+				A4F9C4731D4372F400A24933 /* Assets.xcassets */,
+				A4F9C4751D4372F400A24933 /* LaunchScreen.storyboard */,
+				A4F9C4781D4372F400A24933 /* Info.plist */,
+				A4F9C4671D4372F400A24933 /* Supporting Files */,
+			);
+			path = ProxyPattern;
+			sourceTree = "<group>";
+		};
+		A4F9C4671D4372F400A24933 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A4F9C4681D4372F400A24933 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A4F9C4801D4372F400A24933 /* ProxyPatternTests */ = {
+			isa = PBXGroup;
+			children = (
+				A4F9C4811D4372F400A24933 /* ProxyPatternTests.m */,
+				A4F9C4831D4372F400A24933 /* Info.plist */,
+			);
+			path = ProxyPatternTests;
+			sourceTree = "<group>";
+		};
+		A4F9C48B1D4372F400A24933 /* ProxyPatternUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A4F9C48C1D4372F400A24933 /* ProxyPatternUITests.m */,
+				A4F9C48E1D4372F400A24933 /* Info.plist */,
+			);
+			path = ProxyPatternUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A4F9C4631D4372F400A24933 /* ProxyPattern */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4F9C4911D4372F400A24933 /* Build configuration list for PBXNativeTarget "ProxyPattern" */;
+			buildPhases = (
+				A4F9C4601D4372F400A24933 /* Sources */,
+				A4F9C4611D4372F400A24933 /* Frameworks */,
+				A4F9C4621D4372F400A24933 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ProxyPattern;
+			productName = ProxyPattern;
+			productReference = A4F9C4641D4372F400A24933 /* ProxyPattern.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A4F9C47C1D4372F400A24933 /* ProxyPatternTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4F9C4941D4372F400A24933 /* Build configuration list for PBXNativeTarget "ProxyPatternTests" */;
+			buildPhases = (
+				A4F9C4791D4372F400A24933 /* Sources */,
+				A4F9C47A1D4372F400A24933 /* Frameworks */,
+				A4F9C47B1D4372F400A24933 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A4F9C47F1D4372F400A24933 /* PBXTargetDependency */,
+			);
+			name = ProxyPatternTests;
+			productName = ProxyPatternTests;
+			productReference = A4F9C47D1D4372F400A24933 /* ProxyPatternTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A4F9C4871D4372F400A24933 /* ProxyPatternUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4F9C4971D4372F400A24933 /* Build configuration list for PBXNativeTarget "ProxyPatternUITests" */;
+			buildPhases = (
+				A4F9C4841D4372F400A24933 /* Sources */,
+				A4F9C4851D4372F400A24933 /* Frameworks */,
+				A4F9C4861D4372F400A24933 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A4F9C48A1D4372F400A24933 /* PBXTargetDependency */,
+			);
+			name = ProxyPatternUITests;
+			productName = ProxyPatternUITests;
+			productReference = A4F9C4881D4372F400A24933 /* ProxyPatternUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A4F9C45C1D4372F400A24933 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Cain;
+				TargetAttributes = {
+					A4F9C4631D4372F400A24933 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = M67UHY3N8U;
+					};
+					A4F9C47C1D4372F400A24933 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = M67UHY3N8U;
+						TestTargetID = A4F9C4631D4372F400A24933;
+					};
+					A4F9C4871D4372F400A24933 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = M67UHY3N8U;
+						TestTargetID = A4F9C4631D4372F400A24933;
+					};
+				};
+			};
+			buildConfigurationList = A4F9C45F1D4372F400A24933 /* Build configuration list for PBXProject "ProxyPattern" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A4F9C45B1D4372F400A24933;
+			productRefGroup = A4F9C4651D4372F400A24933 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A4F9C4631D4372F400A24933 /* ProxyPattern */,
+				A4F9C47C1D4372F400A24933 /* ProxyPatternTests */,
+				A4F9C4871D4372F400A24933 /* ProxyPatternUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A4F9C4621D4372F400A24933 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4F9C4771D4372F400A24933 /* LaunchScreen.storyboard in Resources */,
+				A4F9C4741D4372F400A24933 /* Assets.xcassets in Resources */,
+				A4F9C4721D4372F400A24933 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4F9C47B1D4372F400A24933 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4F9C4861D4372F400A24933 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A4F9C4601D4372F400A24933 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4F9C46F1D4372F400A24933 /* ViewController.m in Sources */,
+				A42FDE1B1D45A243008E97C1 /* AudiManufacturer.m in Sources */,
+				A4F9C46C1D4372F400A24933 /* AppDelegate.m in Sources */,
+				A4F9C4691D4372F400A24933 /* main.m in Sources */,
+				A41AFEF31D45E3BD00CB5503 /* Customer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4F9C4791D4372F400A24933 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4F9C4821D4372F400A24933 /* ProxyPatternTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4F9C4841D4372F400A24933 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4F9C48D1D4372F400A24933 /* ProxyPatternUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A4F9C47F1D4372F400A24933 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A4F9C4631D4372F400A24933 /* ProxyPattern */;
+			targetProxy = A4F9C47E1D4372F400A24933 /* PBXContainerItemProxy */;
+		};
+		A4F9C48A1D4372F400A24933 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A4F9C4631D4372F400A24933 /* ProxyPattern */;
+			targetProxy = A4F9C4891D4372F400A24933 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A4F9C4701D4372F400A24933 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4F9C4711D4372F400A24933 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A4F9C4751D4372F400A24933 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4F9C4761D4372F400A24933 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A4F9C48F1D4372F400A24933 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A4F9C4901D4372F400A24933 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A4F9C4921D4372F400A24933 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ProxyPattern/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.DesignPattern.ProxyPattern;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A4F9C4931D4372F400A24933 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ProxyPattern/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.DesignPattern.ProxyPattern;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A4F9C4951D4372F400A24933 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ProxyPatternTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.DesignPattern.ProxyPatternTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ProxyPattern.app/ProxyPattern";
+			};
+			name = Debug;
+		};
+		A4F9C4961D4372F400A24933 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ProxyPatternTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.DesignPattern.ProxyPatternTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ProxyPattern.app/ProxyPattern";
+			};
+			name = Release;
+		};
+		A4F9C4981D4372F400A24933 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ProxyPatternUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.DesignPattern.ProxyPatternUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ProxyPattern;
+			};
+			name = Debug;
+		};
+		A4F9C4991D4372F400A24933 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ProxyPatternUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.DesignPattern.ProxyPatternUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ProxyPattern;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A4F9C45F1D4372F400A24933 /* Build configuration list for PBXProject "ProxyPattern" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4F9C48F1D4372F400A24933 /* Debug */,
+				A4F9C4901D4372F400A24933 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4F9C4911D4372F400A24933 /* Build configuration list for PBXNativeTarget "ProxyPattern" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4F9C4921D4372F400A24933 /* Debug */,
+				A4F9C4931D4372F400A24933 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4F9C4941D4372F400A24933 /* Build configuration list for PBXNativeTarget "ProxyPatternTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4F9C4951D4372F400A24933 /* Debug */,
+				A4F9C4961D4372F400A24933 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4F9C4971D4372F400A24933 /* Build configuration list for PBXNativeTarget "ProxyPatternUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4F9C4981D4372F400A24933 /* Debug */,
+				A4F9C4991D4372F400A24933 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A4F9C45C1D4372F400A24933 /* Project object */;
+}

@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:SingletonPattern/SingletonPattern.xcodeproj">
+      location = "group:SingletonPattern/SingletonPattern&#x5de5;&#x7a0b;&#x6587;&#x4ef6;/SingletonPattern.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:ProxyPattern/ProxyPattern&#x5de5;&#x7a0b;&#x6587;&#x4ef6;/ProxyPattern.xcodeproj">
    </FileRef>
 </Workspace>
