@@ -36,11 +36,7 @@ Cain(罗家辉)
 ---
 ### 简介
 
-<p align="center">
-
 ![ProxyPatternUML | center](./ProxyPatternUML.png)
-
-</p>
 
 > 这是一张**`代理模式`**的UML图, 同样也很简单的讲解了**`代理模式`**到底是怎么回事
 >
