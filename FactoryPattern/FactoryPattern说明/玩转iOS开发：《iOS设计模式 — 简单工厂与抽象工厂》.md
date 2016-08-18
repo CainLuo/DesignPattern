@@ -1,4 +1,4 @@
-# <center>玩转iOS开发：《iOS设计模式 — 简单工厂与抽象工厂》</center>
+# <p align="center">玩转iOS开发：《iOS设计模式 — 简单工厂与抽象工厂》</p****>
 
 ---
 ### 目录
