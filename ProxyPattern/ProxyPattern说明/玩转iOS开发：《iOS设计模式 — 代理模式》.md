@@ -28,11 +28,11 @@
 > 最后:
 > 如果你有更好的建议或者对这篇文章有不满的地方, 请联系我, 我会参考你们的意见再进行修改, 联系我时, 请备注**`代理模式`**, 如果觉得好的话, 希望大家也可以打赏一下~嘻嘻~祝大家学习愉快~谢谢~
 
-Cain(罗家辉)
+<p align="right">Cain(罗家辉)</p>
 
-联系方式: zhebushimengfei@qq.com
+<p align="right">zhebushimengfei@qq.com: 联系方式</p>
 
-腾讯QQ: 350116542
+<p align="right">350116542: 腾讯QQ</p>
 
 ---
 ### 简介
