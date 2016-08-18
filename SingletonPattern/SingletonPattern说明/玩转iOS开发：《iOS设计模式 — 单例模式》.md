@@ -101,7 +101,8 @@ Cain(罗家辉)
 > 我们都搞定, 酱紫我们就完成了一个单例类的创建啦
 
 ---
-###工程地址
-> 工程地址: https://github.com/CainRun/DesignPattern/tree/master/SingletonPattern
+### 工程地址
+项目地址: https://github.com/CainRun/DesignPattern
+项目说明: https://github.com/CainRun/DeveloperDocument
 
 
