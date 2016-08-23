@@ -2,7 +2,7 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:FactoryPattern/FactoryPattern.xcodeproj">
+      location = "group:FactoryPattern/FactoryPattern&#x5de5;&#x7a0b;/FactoryPattern.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:SingletonPattern/SingletonPattern&#x5de5;&#x7a0b;&#x6587;&#x4ef6;/SingletonPattern.xcodeproj">
