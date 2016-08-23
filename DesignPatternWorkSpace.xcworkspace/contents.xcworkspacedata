@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:ObserverPattern/ObserverPattern&#x5de5;&#x7a0b;/ObserverPattern/ObserverPattern.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:FactoryPattern/FactoryPattern&#x5de5;&#x7a0b;/FactoryPattern.xcodeproj">
    </FileRef>
    <FileRef
