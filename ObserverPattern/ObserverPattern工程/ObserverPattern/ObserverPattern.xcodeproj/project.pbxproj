@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A464423F1D6D342F00DC1BC5 /* PublicNumberCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = A464423E1D6D342F00DC1BC5 /* PublicNumberCenter.m */; };
 		A47E8A921D6C4ED200403CBD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A47E8A911D6C4ED200403CBD /* main.m */; };
 		A47E8A951D6C4ED200403CBD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A47E8A941D6C4ED200403CBD /* AppDelegate.m */; };
 		A47E8A981D6C4ED200403CBD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A47E8A971D6C4ED200403CBD /* ViewController.m */; };
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A464423D1D6D342F00DC1BC5 /* PublicNumberCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PublicNumberCenter.h; sourceTree = "<group>"; };
+		A464423E1D6D342F00DC1BC5 /* PublicNumberCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PublicNumberCenter.m; sourceTree = "<group>"; };
 		A47E8A8D1D6C4ED200403CBD /* ObserverPattern.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ObserverPattern.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A47E8A911D6C4ED200403CBD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A47E8A931D6C4ED200403CBD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +54,7 @@
 		A47E8AB11D6C4ED200403CBD /* ObserverPatternUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ObserverPatternUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A47E8AB51D6C4ED200403CBD /* ObserverPatternUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObserverPatternUITests.m; sourceTree = "<group>"; };
 		A47E8AB71D6C4ED200403CBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4C8B4C21D7B2BCD00100DB6 /* PublicNumberProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PublicNumberProtocol.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,6 +157,7 @@
 		A47E8AC41D6C4FF500403CBD /* Protocol */ = {
 			isa = PBXGroup;
 			children = (
+				A4C8B4C21D7B2BCD00100DB6 /* PublicNumberProtocol.h */,
 			);
 			path = Protocol;
 			sourceTree = "<group>";
@@ -160,6 +165,8 @@
 		A47E8AC51D6C4FF500403CBD /* PublicNumberCenter */ = {
 			isa = PBXGroup;
 			children = (
+				A464423D1D6D342F00DC1BC5 /* PublicNumberCenter.h */,
+				A464423E1D6D342F00DC1BC5 /* PublicNumberCenter.m */,
 			);
 			path = PublicNumberCenter;
 			sourceTree = "<group>";
@@ -294,6 +301,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A464423F1D6D342F00DC1BC5 /* PublicNumberCenter.m in Sources */,
 				A47E8A981D6C4ED200403CBD /* ViewController.m in Sources */,
 				A47E8A951D6C4ED200403CBD /* AppDelegate.m in Sources */,
 				A47E8A921D6C4ED200403CBD /* main.m in Sources */,
@@ -522,6 +530,7 @@
 				A47E8ABC1D6C4ED200403CBD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A47E8ABD1D6C4ED200403CBD /* Build configuration list for PBXNativeTarget "ObserverPatternTests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +539,7 @@
 				A47E8ABF1D6C4ED200403CBD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A47E8AC01D6C4ED200403CBD /* Build configuration list for PBXNativeTarget "ObserverPatternUITests" */ = {
 			isa = XCConfigurationList;
@@ -538,6 +548,7 @@
 				A47E8AC21D6C4ED200403CBD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
